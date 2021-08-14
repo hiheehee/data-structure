@@ -174,7 +174,7 @@ public class NodeMgmt {
 		myTree.insertNode(19);
 		myTree.insertNode(17);
 		myTree.insertNode(7);
-		myTree.insertNode(8);
+		myTree.insertNode(8);  
 		myTree.insertNode(6);
 		    
 		System.out.println(myTree.delete(15));  
