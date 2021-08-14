@@ -183,7 +183,7 @@ public class NodeMgmt {
 		System.out.println(myTree.head.left.left.value);
 		System.out.println(myTree.head.left.right.value);
 		
-		System.out.println(myTree.head.right.value);
+		System.out.println(myTree.head.right.value);  
 		System.out.println(myTree.head.right.left.value);
 		System.out.println(myTree.head.right.right.value);
 		
