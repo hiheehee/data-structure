@@ -1,4 +1,4 @@
-package dataStructure;
+package dataStructure.hashTable;
 
 public class LinearProbingHashTable {
 
