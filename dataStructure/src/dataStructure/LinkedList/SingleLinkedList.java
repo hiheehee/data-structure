@@ -1,4 +1,4 @@
-package dataStructure;
+package dataStructure.LinkedList;
 
 public class SingleLinkedList<T> {
 
