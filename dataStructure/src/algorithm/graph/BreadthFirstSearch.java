@@ -7,6 +7,9 @@ import java.util.HashMap;
 // 시간 복잡도 : O(V+E) <= V 노드 수, E 간선 수
 public class BreadthFirstSearch {
 	
+	
+	// visited 큐 
+	// needVisit 큐
 	public ArrayList<String> search(HashMap<String, ArrayList<String>> graph, String startNode){
 		ArrayList<String> visited = new ArrayList<>();
 		ArrayList<String> needVisit = new ArrayList<>();
@@ -14,7 +17,7 @@ public class BreadthFirstSearch {
 		visited.add(startNode);
 		needVisit.addAll(graph.get(startNode));
 		while(!needVisit.isEmpty()) {
-			String node = needVisit.remove(0);
+			String node = needVisit.remove(0); // 큐 자료구조
 			
 			if(!visited.contains(node)) {
 				visited.add(node);
