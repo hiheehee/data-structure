@@ -35,6 +35,7 @@ public class QuickSort {
 	public static void main(String[] args) {
 		QuickSort qs = new QuickSort();
 		ArrayList<Integer> test = new ArrayList<>();
+		
 		for(int i = 0; i < 100; i++) {
 			test.add((int)(Math.random()*100));
 		}
